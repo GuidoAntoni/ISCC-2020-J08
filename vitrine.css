@@ -1,0 +1,195 @@
+@font-face {
+   
+    font-family: 'nasalization';
+    src: url('nasalization-rg.ttf');
+}
+@font-face {font-family: 'opensans';
+    src: url('OpenSans-Regular.ttf');
+}
+
+main {
+    text-align: center;
+    max-width: 810px;
+    word-wrap: normal;
+    margin-right: auto;
+    margin-left: auto;
+
+    
+    
+}
+
+body{
+    background-color: #f2f2f2;
+    font-family:'opensans' ;
+    font-size: 14;
+   
+      
+}
+
+header{
+    background-image: url(texture-header.jpg);
+    height: 150px;
+    
+    
+}
+
+
+.align{
+    display: flex;
+    
+}
+
+header h1 {
+    margin: auto;
+    font-family: 'nasalization';
+    font-size: 40px;
+    color: #27d1ff;
+    text-align: center;
+    position: relative;
+    top: 55px;
+}
+
+.inline{
+    display: inline-block;
+    background-color: #2e2f30;
+    margin: 0px;
+    padding-right: 50px;
+    color: white;
+    text-align: right;
+    vertical-align: middle;
+    position: relative;
+    right: -910px;
+    position: relative;
+    top: -48px;
+    
+}
+
+    .inline ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .inline li{
+        display: inline;
+    }
+
+    .inline a{
+        display: inline-block;
+        margin: 0 30px;
+        text-decoration: none;
+    }
+
+.en-cours a{
+    color: #17c1ff;
+    font-family: 'OpenSans-Bold.ttf';
+} 
+
+
+a:hover{
+    color:#17c1ff;
+}
+
+@font-face{font-family: 'opensans-bold';
+    src: url('OpenSans-Bold.ttf');
+}
+
+a:active{color:#17c1ff;
+    font-family: 'opensans-bold';
+    
+}
+
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+   
+        
+.images{
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+
+
+   
+}
+
+h2{
+    text-transform: uppercase;
+    color: #e6e6e6;
+    text-shadow: 0.1em 0.1em 0.2em grey;
+
+}
+
+main p{
+    text-align: center;
+    max-width: 750px;
+    word-wrap: normal;  
+    padding: 10px;
+}
+
+table
+{
+    text-align: left;
+    font-family: 'opensans';
+    vertical-align:middle;
+    margin: auto;
+   height: 480px;
+}
+th
+{
+    background-color: skyblue;
+}
+
+.tableau{
+    display: flex;
+    max-height: 480px;
+    overflow-y: auto;
+}
+
+.wee1{
+    color: #f2f2f2;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 2px solid #e6e6e6; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    max-width: 300px;
+    padding: 8px;
+  }
+  
+  input[type=text]
+  {
+      width: 250px;
+      height: 30px;
+  }
+
+  input[type=submit] {
+    background-color: grey;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+
+ 
+
+  input[type=submit]:hover {
+    background-color: grey;
+  }
+
+  .Formulaire {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: #e6e6e6 solid 2px;
+  }
